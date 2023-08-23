@@ -22,5 +22,14 @@ public class Collision : MonoBehaviour
             Debug.Log("Game Over!");
             Destroy(gameObject);
         }
+        if (other.CompareTag("Goal"))
+        {
+            Debug.Log("You Win!");
+            Destroy(gameObject);
+        }
+        if (other.CompareTag("Delete"))
+        {
+            Destroy(gameObject);
+        }
     }
 }

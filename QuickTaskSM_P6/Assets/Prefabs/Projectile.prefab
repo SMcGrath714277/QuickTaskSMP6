@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 2146268575088892364}
   - component: {fileID: 2102539674270074036}
   - component: {fileID: 8536140852169897516}
+  - component: {fileID: 273978393676441879}
   m_Layer: 0
   m_Name: Projectile
   m_TagString: Obstacle
@@ -121,7 +122,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12d611604cddb8d43a8fccf7b90c1bec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 40
+  speed: 60
 --- !u!54 &8536140852169897516
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -149,3 +150,15 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 36
   m_CollisionDetection: 0
+--- !u!114 &273978393676441879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3808101079287684319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f25b924837cc7f448f5f4742b920cd3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
